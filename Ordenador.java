@@ -19,9 +19,8 @@ public class Ordenador{
     /**
      * Aumentar el numero de horas que lleva arrancado el ordenador con un operacion
      */
-    public int aumentarHorasArrancado(int horasDiariasArrancado) {
+    public void aumentarHorasArrancado(int horasDiariasArrancado) {
         numeroHorasArrancado = numeroHorasArrancado + horasDiariasArrancado;
-        return numeroHorasArrancado;
     }
     
     /**
@@ -40,16 +39,14 @@ public class Ordenador{
      * Imprimir por pantalla todos los datos del ordenador
      */
     public void imprimirDatos(){
-        System.out.println(" Marca: " + marca);
-        System.out.println(" Horas arrancado: " + numeroHorasArrancado);
-        System.out.println(" Arrancado: " + ordenadorEncendido);
+        System.out.println(" Marca: " + marca + "." + " Horas arrancado: " + numeroHorasArrancado + "." + " Arrancado: " + ordenadorEncendido + ".");
     }
     
     /**
      * Devolver en String todos los datos del ordenador
      */
     public String datosOrdenador() {
-        String aDevolver =" Marca: " + marca + " . " + " Horas arrancado: " + numeroHorasArrancado + " . " + "Arrancado: " + ordenadorEncendido + " . ";
+        String aDevolver =" Marca: " + marca + "." + " Horas arrancado: " + numeroHorasArrancado + "." + " Arrancado: " + ordenadorEncendido + ".";
         return aDevolver; 
     }
 }

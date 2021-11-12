@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Ordenador
+comment1.params=indicarMarca\ ordenadorEnFuncionamiento
+comment1.target=Ordenador(java.lang.String,\ boolean)
+comment2.params=seleccionarMarca
+comment2.target=void\ setMarca(java.lang.String)
+comment3.params=horasDiariasArrancado
+comment3.target=int\ aumentarHorasArrancado(int)
+comment3.text=\r\n\ Aumentar\ el\ numero\ de\ horas\ que\ lleva\ arrancado\ el\ ordenador\ con\ un\ operacion\r\n
+comment4.params=
+comment4.target=void\ pulsarBoton()
+comment4.text=\r\n\ Metodo\ para\ arrancar\ el\ ordenador\ \r\n
+comment5.params=
+comment5.target=void\ imprimirDatos()
+comment5.text=\r\n\ Imprimir\ por\ pantalla\ todos\ los\ datos\ del\ ordenador\r\n
+comment6.params=
+comment6.target=java.lang.String\ datosOrdenador()
+comment6.text=\r\n\ Devolver\ en\ String\ todos\ los\ datos\ del\ ordenador\r\n
+numComments=7
